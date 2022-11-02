@@ -1,0 +1,189 @@
+/* ================
+	Gogole Fonts
+================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* =================
+	Global Css
+==================== */
+
+header	{
+	border-bottom: 2px solid #EEF0F3;
+}
+
+header img {
+	width: 40%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav-link {
+	margin: 4px;
+	font-size: 16px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* ====================
+	Banner Section
+======================= */
+
+.banner-section {
+	margin-top: 65px;
+    text-align: center;
+}
+
+.banner-section h2 {
+	font-size: 50px;
+	font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #0F2656;
+}
+
+.banner-section h2 span {
+	display: block;
+	font-size: 50px;
+	font-family: 'Inter', sans-serif;
+	color: #0088FF;
+    font-weight: 600;
+}
+
+.banner-section p {
+	padding: 25px 150px;
+	font-family: 'Inter', sans-serif;
+}
+
+/* ====================
+	Stories Section
+======================= */
+
+.stories-section {
+	margin-top: 100px;
+}
+
+.stories-section h2 {
+	font-size: 50px;
+	color: #F15666;
+	text-align: right;
+}
+
+.stories-section p {
+	padding-left: 70px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.stories-section h3 {
+	font-size: 45px;
+	font-family: 'Inter', sans-serif;
+	color: #082051;
+	font-weight: 700;
+}
+
+.stories-section h3 span {
+	display: block;
+}
+
+/* ===================
+	Features box
+====================== */
+
+.feature-section {
+	margin-top: 80px;
+}
+
+.feature-section img {
+	margin-top: 50px;
+	padding: 0 60px;
+	width: 100%;
+}
+.itembox-one {
+	background: #FDEBED;
+}
+
+.itembox-one h2 {
+	margin-top: 22px;
+	padding: 20px 40px;
+	font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.itembox-one p {
+	padding: 0 40px 40px;
+}
+
+.itembox-two {
+	background: #EBF9F4;	
+}
+
+.itembox-two h2 {
+	padding: 20px 40px;
+	font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.itembox-two p {
+	padding: 0 40px 40px;
+}
+
+.itembox-three {
+	background: #FFF7E8;
+	
+}
+
+.itembox-three h2 {
+	padding: 17px 40px;
+	font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.itembox-three p {
+	padding: 0 40px 40px;
+}
+
+/* ===============
+	Footer Section
+================= */
+
+footer {
+	margin-top: 50px;
+	background: #008AFF;
+	padding: 50px 0 25px;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+/* Mobile Device */
+
+@media ( min-width: 320px ) and ( max-width: 576px ){
+
+.banner-section { margin-top: 42px;}
+.banner-section h2 { font-size: 34px;}
+.banner-section h2 span { font-size: 34px;}
+.banner-section p { padding: 0 30px; font-size: 16px;}
+.banner-section img { width: 80%;}
+.stories-section h2 { font-size: 50px; text-align: center;}
+.stories-section p { padding: 0; font-size: 16px; text-align: center;}
+.stories-section h3 { margin-top: 10px; text-align: center; font-size: 40px;}
+.feature-section{ margin-top: 38px;}
+.itembox-one { margin-bottom: 18px;}
+.itembox-two { margin-bottom: 18px;}
+.itembox-three { margin-bottom: 18px;}
+footer { margin-top: 10px; padding: 20px 0 4px;}
+
+}
